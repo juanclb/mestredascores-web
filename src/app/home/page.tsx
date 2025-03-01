@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Bottom } from "../bottom";
 
-export const obras = [
+const obras = [
   {
     id: 1,
     url: "https://i.imgur.com/7tOPVgC.jpg",
@@ -28,6 +28,8 @@ export const obras = [
     name: "A Cidade Grande",
   },
 ];
+
+export const runtime = "edge";
 
 export default function Dashboard() {
   const imgUrl = `https://img.freepik.com/fotos-premium/uma-pintura-de-um-barco-que-e-pintado-com-um-ceu-azul-e-as-palavras-a-palavra-ao-lado_546042-528.jpg?w=2000`;

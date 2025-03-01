@@ -1,5 +1,34 @@
 import Link from "next/link";
-import { obras } from "../../home/page";
+
+export const runtime = "edge";
+
+const obras = [
+  {
+    id: 1,
+    url: "https://i.imgur.com/7tOPVgC.jpg",
+    name: "Flores do Campo",
+  },
+  {
+    id: 2,
+    url: "https://i.imgur.com/AY0B13h.jpg",
+    name: "Navio Fantasma",
+  },
+  {
+    id: 3,
+    url: "https://i.imgur.com/MXthsuU.jpg",
+    name: "Pôr do Sol em Alto Mar",
+  },
+  {
+    id: 4,
+    url: "https://i.imgur.com/VpFnZmp.jpg",
+    name: "Brisa Elegante",
+  },
+  {
+    id: 5,
+    url: "https://i.imgur.com/HUlWif0.jpg",
+    name: "A Cidade Grande",
+  },
+];
 
 export default function Dashboard({ params }: { params: { id: number } }) {
   const imgUrl = `https://img.freepik.com/fotos-premium/uma-pintura-de-um-barco-que-e-pintado-com-um-ceu-azul-e-as-palavras-a-palavra-ao-lado_546042-528.jpg?w=2000`;
