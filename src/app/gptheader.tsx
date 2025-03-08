@@ -35,9 +35,9 @@ export const GPTHeader = ({ currentPage }: { currentPage: string }) => {
             <a></a>
           </div>
           <div className="hidden md:flex w-1/3 justify-evenly items-center">
-            <CustomLink href="/inicio" page="Início" />
-            <CustomLink href="/categorias" page="Categorias" />
-            <CustomLink href="/inicio" page="Contato" />
+            <CustomLink href="/" page="Início" />
+            <CustomLink href="/colecoes" page="Categorias" />
+            <CustomLink href="/biografia" page="Contato" />
           </div>
           <div className="flex justify-center w-3/4 md:w-1/3 items-center">
             {/* <a className="font-black text-2xl md:text-4xl">MESTRE</a>
@@ -45,7 +45,7 @@ export const GPTHeader = ({ currentPage }: { currentPage: string }) => {
               DAS
             </a>
             <a className="font-black text-2xl md:text-4xl">CORES</a> */}
-            <Link href={"/home"}>
+            <Link href={"/"}>
               <img src="https://i.imgur.com/0bPnlop.png"></img>
             </Link>
           </div>

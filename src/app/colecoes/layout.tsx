@@ -1,3 +1,4 @@
+import GPTHeader from "../gptheader";
 import { Header } from "../header";
 
 const page = "Categorias";
@@ -11,7 +12,7 @@ export default function DashboardLayout({
     <section>
       {/* Include shared UI here e.g. a header or sidebar */}
       <nav>
-        <Header currentPage={page} />
+        <GPTHeader currentPage={page} />
       </nav>
 
       {children}

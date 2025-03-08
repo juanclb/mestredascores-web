@@ -3,7 +3,7 @@ import { useState } from "react";
 import GPTHeader from "../gptheader";
 import { Bottom } from "../bottom";
 
-const page = "Categorias";
+const page = "Contato";
 
 export default function DashboardLayout({
   children, // will be a page or nested layout
